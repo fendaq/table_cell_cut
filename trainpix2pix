@@ -1,0 +1,1 @@
+python pix2pix.py --mode train --input_dir data/croped_image_photoshot256 --output_dir output/pix2pix/1 --ngf 32 --ndf 32  --l1_weight 100 --gan_weight 0 --crop_size 256 --scale_size 286 --save_freq 500 --batch_size 4 --lr 2e-4
